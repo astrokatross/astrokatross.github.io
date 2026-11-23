@@ -66,7 +66,7 @@ author:
 
   # Add your profile image at:
   # assets/images/bio-photo.jpg
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/Kat_Grad.jpg"
 
   bio: >-
     I study twinkling galaxies and help make science
@@ -91,7 +91,7 @@ author:
 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/astrokatross"
+      url: "https://instagram.com/astro.katross"
 
     # Uncomment these after replacing PLACEHOLDER_URL.
 
@@ -126,7 +126,7 @@ footer:
 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/astrokatross"
+      url: "https://instagram.com/astro.katross"
 
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
@@ -144,7 +144,7 @@ social:
   links:
     - "https://astrokatross.github.io"
     - "https://github.com/astrokatross"
-    - "https://instagram.com/astrokatross"
+    - "https://instagram.com/astro.katross"
 
 # Add a default social-sharing image later if required.
 # Recommended dimensions: 1200 × 630 pixels.
