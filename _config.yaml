@@ -19,7 +19,7 @@ locale                   : "en-AU"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
 title                    : " Dr Kat Ross"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Astrophysicist | Science Communicator | Activist"
 name                     : "Dr Kat Ross"
 description              : "A personal website with information about myself and my research."
 url                      : "https://astrokatross.github.io"
