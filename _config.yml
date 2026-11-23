@@ -253,6 +253,7 @@ atom_feed:
 include:
   - .htaccess
   - _pages
+  - _publications
 
 exclude:
   - "*.sublime-project"
