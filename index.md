@@ -10,8 +10,8 @@ classes: wide
   <div class="kh-container kh-hero-grid">
     <div>
       <p class="kh-kicker">Astrophysicist · Science Communicator · Activist</p>
-      <h1 id="hero-title">I study twinkling galaxies and help make science a welcoming environment for everyone.</h1>
-      <p class="kh-lead">I use </p>
+      <h1 id="hero-title">Twinkling galaxies and baby black holes.</h1>
+      <p class="kh-lead">I study the universe using the "radio rainbow"</p>
       <p>I am an astrophysicist studying active galactic nuclei (AGN) and baby black holes using the radio rainbow. I use world-class telescopes, like the Murchison Widefield Array (MWA) to piece together galaxy evolution and study the Universe in "radio colour".
       </p>
       <p>I have worked extensively as a science communicator and activist for inclusive STEM spaces including founding IncludeHer, an international organisation that aims for widespread science education reform to shift dominant about science and scientists.
@@ -21,9 +21,8 @@ classes: wide
         <!-- <a class="btn btn--inverse" href="{{ '/files/Kat-Ross-CV.pdf' | relative_url }}">View CV</a> -->
       </div>
     </div>
-    <!-- Optional portrait:
-    <figure class="kh-portrait"><img src="{{ '/assets/images/bio-photo.jpg' | relative_url }}" alt="Dr Kat Ross"></figure>
-    -->
+    <!-- Optional portrait: -->
+    <figure class="kh-portrait"><img src="{{ '/assets/images/Kat_Grad.jpg' | relative_url }}" alt="Dr Kat Ross"></figure>
   </div>
 </section>
 
