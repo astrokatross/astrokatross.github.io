@@ -1,0 +1,444 @@
+# ============================================================================
+# Dr Kat Ross personal website
+# Jekyll configuration for the Minimal Mistakes theme
+#
+# Changes to this file require restarting `bundle exec jekyll serve`.
+# ============================================================================
+
+
+# ----------------------------------------------------------------------------
+# Theme
+# ----------------------------------------------------------------------------
+
+# The custom skin requires:
+# _sass/minimal-mistakes/skins/_barbiepink.scss
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+minimal_mistakes_skin: "barbiepink"
+
+
+# ----------------------------------------------------------------------------
+# Site settings
+# ----------------------------------------------------------------------------
+
+locale: "en-AU"
+direction: "ltr"
+
+title: "Dr Kat Ross"
+title_separator: "|"
+subtitle: "Astrophysicist | Science Communicator | Advocate"
+
+name: "Dr Kat Ross"
+
+description: >-
+  Dr Kat Ross is an astrophysicist, science communicator and advocate
+  based in Perth, Western Australia.
+
+url: "https://astrokatross.github.io"
+baseurl: ""
+
+repository: "astrokatross/astrokatross.github.io"
+
+# Optional site-wide images
+teaser: ""
+logo: ""
+masthead_title: ""
+
+breadcrumbs: false
+words_per_minute: 200
+enable_copy_code_button: true
+
+copyright: "Dr Kat Ross"
+copyright_url: "https://astrokatross.github.io"
+
+search: true
+search_full_content: true
+search_provider: "lunr"
+
+
+# ----------------------------------------------------------------------------
+# Site author
+# ----------------------------------------------------------------------------
+
+author:
+  name: "Dr Kat Ross"
+
+  # Add your profile image at:
+  # assets/images/bio-photo.jpg
+  avatar: "/assets/images/bio-photo.jpg"
+
+  bio: >-
+    I study twinkling galaxies and help make science
+    a welcoming environment.
+
+  location: "Perth, Western Australia"
+
+  email: "astro.katross@pm.me"
+
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:astro.katross@pm.me"
+
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://astrokatross.github.io"
+
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/astrokatross"
+
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/astrokatross"
+
+    # Uncomment these after replacing PLACEHOLDER_URL.
+
+    # - label: "NASA ADS"
+    #   icon: "fas fa-fw fa-book"
+    #   url: "PLACEHOLDER_URL"
+
+    # - label: "Google Scholar"
+    #   icon: "fas fa-fw fa-graduation-cap"
+    #   url: "PLACEHOLDER_URL"
+
+    # - label: "ORCID"
+    #   icon: "fab fa-fw fa-orcid"
+    #   url: "PLACEHOLDER_URL"
+
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "PLACEHOLDER_URL"
+
+
+# ----------------------------------------------------------------------------
+# Site footer
+# ----------------------------------------------------------------------------
+
+footer:
+  since: "2026"
+
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/astrokatross"
+
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/astrokatross"
+
+    - label: "Email"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:astro.katross@pm.me"
+
+
+# ----------------------------------------------------------------------------
+# Social and SEO metadata
+# ----------------------------------------------------------------------------
+
+social:
+  type: "Person"
+  name: "Dr Kat Ross"
+
+  links:
+    - "https://astrokatross.github.io"
+    - "https://github.com/astrokatross"
+    - "https://instagram.com/astrokatross"
+
+# Add a default social-sharing image later if required.
+# Recommended dimensions: 1200 × 630 pixels.
+og_image: ""
+og_image_alt: "Dr Kat Ross, astrophysicist and science communicator"
+
+
+# ----------------------------------------------------------------------------
+# Search
+# ----------------------------------------------------------------------------
+
+lunr:
+  search_within_pages: true
+
+algolia:
+  application_id: ""
+  index_name: ""
+  search_only_api_key: ""
+  powered_by: true
+
+google:
+  search_engine_id: ""
+  instant_search: false
+
+
+# ----------------------------------------------------------------------------
+# Search-engine verification
+# ----------------------------------------------------------------------------
+
+google_site_verification: ""
+bing_site_verification: ""
+naver_site_verification: ""
+yandex_site_verification: ""
+baidu_site_verification: ""
+
+
+# ----------------------------------------------------------------------------
+# Analytics
+# ----------------------------------------------------------------------------
+
+analytics:
+  provider: false
+
+  google:
+    tracking_id: ""
+    anonymize_ip: true
+
+
+# ----------------------------------------------------------------------------
+# Comments
+# ----------------------------------------------------------------------------
+
+comments:
+  provider: false
+
+  disqus:
+    shortname: ""
+
+  discourse:
+    server: ""
+
+  facebook:
+    appid: ""
+    num_posts: 5
+    colorscheme: "light"
+
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
+
+  giscus:
+    repo_id: ""
+    category_name: ""
+    category_id: ""
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
+    strict: "0"
+    input_position: "bottom"
+    emit_metadata: "0"
+    lang: "en"
+    lazy: true
+
+  staticman:
+    branch: "main"
+    endpoint: ""
+
+reCaptcha:
+  siteKey: ""
+  secret: ""
+
+
+# ----------------------------------------------------------------------------
+# Atom feed
+# ----------------------------------------------------------------------------
+
+atom_feed:
+  path: ""
+  hide: false
+
+
+# ----------------------------------------------------------------------------
+# Files and directories
+# ----------------------------------------------------------------------------
+
+include:
+  - .htaccess
+  - _pages
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - minimal-mistakes-jekyll.gemspec
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - README.md
+  - tmp
+  - docs
+  - test
+
+keep_files:
+  - .git
+  - .svn
+
+encoding: "utf-8"
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# ----------------------------------------------------------------------------
+# Markdown conversion
+# ----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: "1..6"
+  smart_quotes: "lsquo,rsquo,ldquo,rdquo"
+  enable_coderay: false
+
+
+# ----------------------------------------------------------------------------
+# Sass/SCSS
+# ----------------------------------------------------------------------------
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  quiet_deps: true
+  silence_deprecations:
+    - import
+
+
+# ----------------------------------------------------------------------------
+# URL generation
+# ----------------------------------------------------------------------------
+
+permalink: "/:categories/:title/"
+
+timezone: "Australia/Perth"
+
+
+# ----------------------------------------------------------------------------
+# Pagination
+# ----------------------------------------------------------------------------
+
+paginate: 5
+paginate_path: "/page:num/"
+
+# Optional jekyll-paginate-v2 configuration.
+# It will remain inactive unless the plugin is installed and enabled.
+
+pagination:
+  enabled: false
+  debug: false
+  collection: "posts"
+  per_page: 10
+  permalink: "/page/:num/"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  category: "posts"
+  tag: ""
+  locale: "en-AU"
+
+  trail:
+    before: 2
+    after: 2
+
+
+# ----------------------------------------------------------------------------
+# Plugins
+# ----------------------------------------------------------------------------
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+# GitHub Pages safe-mode plugin allowlist.
+whitelist:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+
+# ----------------------------------------------------------------------------
+# Archives
+# ----------------------------------------------------------------------------
+
+category_archive:
+  type: liquid
+  path: "/categories/"
+
+tag_archive:
+  type: liquid
+  path: "/tags/"
+
+show_taxonomy: false
+
+
+# ----------------------------------------------------------------------------
+# HTML compression
+# ----------------------------------------------------------------------------
+
+compress_html:
+  clippings: all
+
+  ignore:
+    envs:
+      - development
+
+
+# ----------------------------------------------------------------------------
+# Front-matter defaults
+# ----------------------------------------------------------------------------
+
+defaults:
+  # Default settings for regular pages, including the homepage.
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+      comments: false
+      share: false
+      related: false
+
+  # Default settings for blog posts.
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      show_date: true
