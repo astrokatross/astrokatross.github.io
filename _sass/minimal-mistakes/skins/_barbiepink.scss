@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Barbie Pink skin
+   ========================================================================== */
+
+/* Colors */
+
+/* Deep plum-pink for high-contrast details */
+$dark-gray: #4a1538 !default;
+/* Soft blush background */
+$background-color: #fff0f7 !default;
+/* Dark berry text rather than pure black */
+$text-color: #351526 !default;
+$muted-text-color: #765367 !default;
+/* Signature hot pink */
+$primary-color: #e5007d !default;
+/* Pale pink borders */
+$border-color: mix(#d63384, $background-color, 20%) !default;
+/* Code blocks */
+$code-background-color: mix(#fff, $background-color, 35%) !default;
+$code-background-color-dark: mix(#9d145d, $background-color, 12%) !default;
+/* Forms */
+$form-background-color: mix(#fff, $background-color, 45%) !default;
+/* Strong bubblegum-pink footer */
+$footer-background-color: #f04f9a !default;
+/* Links */
+$link-color: #c2186a !default;
+$link-color-hover: #e5007d !default;
+$link-color-visited: #8f245c !default;
+/* Masthead */
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $primary-color !default;
+/* Mobile navigation */
+$navicon-link-color-hover: #e5007d !default;
+
+
+/* ==========================================================================
+   Notices
+   ========================================================================== */
+
+$notice-background-mix: 75% !default;
+
+/* ==========================================================================
+   Barbie-inspired syntax highlighting
+   ========================================================================== */
+
+$base00: #351526 !default;
+$base01: #4a1538 !default;
+$base02: #612044 !default;
+$base03: #a06b88 !default;
+$base04: #d79ab9 !default;
+$base05: #f1c2d9 !default;
+$base06: #fde2ef !default;
+$base07: #fff8fc !default;
+
+/* Red / error */
+$base08: #dc356a !default;
+
+/* Orange */
+$base09: #f0788e !default;
+
+/* Yellow / gold */
+$base0a: #e6ad3c !default;
+
+/* Contrasting green */
+$base0b: #56896a !default;
+
+/* Cyan */
+$base0c: #3f91a8 !default;
+
+/* Blue */
+$base0d: #6f6ed6 !default;
+
+/* Magenta */
+$base0e: #e5007d !default;
+
+/* Deep rose */
+$base0f: #9d145d !default;
+
+
+/* ==========================================================================
+   Social icons
+   ========================================================================== */
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
