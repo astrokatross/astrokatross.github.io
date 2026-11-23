@@ -447,3 +447,13 @@ defaults:
       share: true
       related: true
       show_date: true
+
+  # Publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false

@@ -1,32 +1,35 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
+layout: single
 author_profile: true
+classes: wide
 ---
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+
+{% assign publications = site.publications | sort: "date" | reverse %}
+
+{% for post in publications %}
+
+## {{ post.title }}
+
+{% if post.excerpt %}
+{{ post.excerpt }}
 {% endif %}
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% if post.venue %}
+**{{ post.venue }}**
 {% endif %}
+
+{% if post.date %}
+{{ post.date | date: "%Y" }}
+{% endif %}
+
+[Read more]({{ post.url | relative_url }}){: .btn .btn--primary }
+
+{% if post.paperurl %}
+[View paper]({{ post.paperurl }}){: .btn .btn--inverse }
+{% endif %}
+
+---
+
+{% endfor %}
