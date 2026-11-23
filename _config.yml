@@ -335,6 +335,10 @@ permalink: "/:categories/:title/"
 
 timezone: "Australia/Perth"
 
+collections:
+  publications:
+    output: true
+    permalink: /publication/:path/
 
 # ----------------------------------------------------------------------------
 # Pagination
