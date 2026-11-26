@@ -17,7 +17,7 @@ classes: wide
       <p>I have worked extensively as a science communicator and activist for inclusive STEM spaces including founding IncludeHer, an international organisation that aims for widespread science education reform to shift dominant about science and scientists.
       I am a proud bisexual and agender person and was diagnosed with ADHD as an adult.</p>
       <div class="kh-buttons">
-        <a class="btn btn--primary" href="/_pages/publications.md">Explore my research</a>
+        <a class="btn btn--primary" href="/publications/">Explore my research</a>
         <!-- <a class="btn btn--inverse" href="{{ '/files/Kat-Ross-CV.pdf' | relative_url }}">View CV</a> -->
       </div>
     </div>
